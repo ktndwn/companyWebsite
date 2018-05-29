@@ -1,0 +1,385 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: jura;
+  color: white;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.socialbar {
+  background-color: #252525;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  z-index: 2;
+  box-shadow: 0px 0px 20px black;
+  transition: all .25s ease-in-out;
+}
+
+.socialbar:hover {
+  box-shadow: 0px 10px 20px black;
+  transition: all .25s ease-in-out;
+}
+
+.header {
+  position: fixed;
+  padding: 0px 10px;
+}
+.header img{
+  border: 1px solid rgba(0,170,255,0);
+  padding: 15px;
+  height: 10px;
+  transition: all .25s ease-in-out;
+}
+
+.header img:hover {
+  border: 1px solid rgba(0,170,255,1);
+  transition: all .25s ease-in-out;
+}
+
+.sociallinks {
+  text-align: right;
+  padding: 0px 10px;
+}
+
+.sociallinks img {
+  border: 1px solid rgba(0,170,255,0);
+  margin: 0px;
+  padding: 10px 10px;
+  width: 20px;
+  transition: all .25s ease-in-out;
+}
+
+.sociallinks img:hover {
+  border: 1px solid rgba(0,170,255,1);
+  transition: all .25s ease-in-out;
+}
+
+
+
+
+
+
+
+#title {
+  text-align: center;
+  padding: 0px 0px;
+  background-image: url(assets/bokeh1.jpeg);
+  background-attachment: fixed;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+}
+
+#title img {
+  width: 680px;
+  margin: 40vh 0px;
+  padding: 20px;
+  filter: drop-shadow(0px 0px 10px black);
+  box-shadow: 0px 0px 0px 0px black;
+  transition: all .25s ease-in-out;
+}
+
+#title img:hover {
+  width: 700px;
+  box-shadow: 0px 0px 40px 0px black;
+  transition: all .25s ease-in-out;
+}
+
+
+
+
+
+
+.titleinfogrid {
+  background-color: #252525;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0px 0px 40px black;
+}
+
+.titleinfo {
+  margin: 50px 100px;
+  grid-column: 1/3;
+  background-color: #252525;
+}
+
+
+.ketan {
+  margin: 0px 100px 50px auto;
+  padding: 50px;
+  box-shadow: 0px 0px 0px black;
+  transition: all .25s ease-in-out;
+}
+
+.ketan:hover {
+  box-shadow: 0px 0px 40px black;
+  transition: all .25s ease-in-out;
+}
+
+.ketan:hover .avatar {
+  border-radius: 15%;
+  box-shadow: 0px 0px 20px white;
+  transition: all .25s ease-in-out;
+}
+
+.ketan .avatar {
+  border-radius: 50%;
+  width: 200px;
+  box-shadow: 0px 0px 40px black;
+  transition: all .5s ease-in-out;
+}
+
+.ketan .links {
+  border: 1px solid rgba(0,170,255,0);
+  margin: 20px 0px;
+  padding: 10px 10px;
+  width: 20px;
+  transition: all .25s ease-in-out;
+}
+
+.ketan .links:hover {
+  border: 1px solid rgba(0,170,255,1);
+  transition: all .25s ease-in-out;
+}
+
+
+
+
+
+.doug {
+  margin: 0px auto 50px 100px;
+  padding: 50px;
+  box-shadow: 0px 0px 0px black;
+  transition: all .25s ease-in-out;
+}
+
+.doug:hover {
+  box-shadow: 0px 0px 40px black;
+  transition: all .25s ease-in-out;
+}
+
+.doug .avatar {
+  border-radius: 50%;
+  width: 200px;
+  box-shadow: 0px 0px 40px black;
+  transition: all .5s ease-in-out;
+}
+
+.doug:hover .avatar {
+  border-radius: 15%;
+  box-shadow: 0px 0px 20px #22958d;
+  transition: all .25s ease-in-out;
+}
+
+.doug .links {
+  border: 1px solid rgba(0,170,255,0);
+  margin: 20px 0px;
+  padding: 10px 10px;
+  width: 20px;
+  transition: all .25s ease-in-out;
+}
+
+.doug .links:hover {
+  border: 1px solid rgba(0,170,255,1);
+  transition: all .25s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#whatwedo {
+  text-align: center;
+  background-image: url(assets/bokeh2.jpeg);
+  background-attachment: fixed;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+}
+
+#whatwedo p {
+  color: white;
+  font-family: Jura;
+  font-size: 100px;
+  padding-top: 40vh;
+  filter: drop-shadow(0px 0px 10px black);
+}
+
+
+
+
+.whatwedoinfogrid {
+  background-color: #252525;
+  text-align: center;
+  box-shadow: 0px 0px 40px black;
+}
+
+.exampletitles {
+  padding-bottom: 25px;
+  font-size: 25px;
+  text-shadow: 0px 0px 5px black;
+  color: #00aaff;
+}
+
+.fxreel {
+  margin: auto;
+  padding: 25px;
+  box-shadow: 0px 0px 0px black;
+  transition: all .25s ease-in-out;
+}
+
+.fxreel:hover {
+  box-shadow: 0px 0px 40px black;
+  transition: all .25s ease-in-out;
+}
+
+
+.skills {
+  margin: 25px auto;
+  padding: 25px;
+  box-shadow: 0px 0px 0px black;
+  transition: all .25s ease-in-out;
+}
+
+.skills li {
+  list-style: square;
+  text-align: left;
+  margin-left: 40vw;
+}
+
+.skills:hover {
+  box-shadow: 0px 0px 40px black;
+  transition: all .25s ease-in-out;
+}
+
+.indiegamedevelopment {
+  margin: 25px auto auto auto;
+  padding: 25px;
+  box-shadow: 0px 0px 0px black;
+  transition: all .25s ease-in-out;
+}
+
+.indiegamedevelopment li {
+  list-style: square;
+  text-align: left;
+  margin-left: 40vw;
+}
+
+.indiegamedevelopment:hover {
+  box-shadow: 0px 0px 40px black;
+  transition: all .25s ease-in-out;
+}
+
+.indiegamedevelopment a {
+  transition: all .25s ease-in-out;
+}
+
+.indiegamedevelopment a:hover {
+  color: #00aaff;
+  transition: all .25s ease-in-out;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+
+  .socialbar {
+    height: 90px;
+  }
+
+  .header {
+    position: static;
+    text-align: center;
+  }
+
+  .sociallinks {
+    text-align: center;
+    margin: auto;
+  }
+
+  .sociallinks img {
+    margin: auto 10px;
+  }
+
+
+  #title img {
+    margin: 40vh auto;
+    width: 310px;
+  }
+
+  #title img:hover {
+    width: 310px;
+  }
+
+
+  .titleinfogrid {
+    grid-template-columns: 1fr;
+  }
+
+  .titleinfo {
+    margin: 50px 15px;;
+    grid-column: 1/2;
+  }
+
+  .ketan {
+    margin: auto;
+  }
+
+  .doug {
+    margin: auto;
+  }
+
+  .whatwedoinfogrid {
+    grid-template-columns: 1fr;
+  }
+
+  .fxreel {
+    padding: auto;
+    width: auto;
+  }
+
+  .vimeoplayer iframe {
+    padding: 0;
+    width: 100%;
+  }
+
+  .skills {
+    margin: auto;
+  }
+
+  .skills li {
+    margin-left: 30vw;
+  }
+
+  .indiegamedevelopment {
+    margin: auto;
+  }
+
+  .indiegamedevelopment li {
+    margin-left: 30vw;
+  }
+
+
+} 
