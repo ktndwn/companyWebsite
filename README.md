@@ -1,3 +1,5 @@
 # Displace Media
 
-Source for [my company website](https://displaceinternational.com) directly hosted here on github.
+Simple mobile friendly parallax static page for my personal LLC company. Hosted directly from here on github.
+
+[View it here](https://displaceinternational.com).
